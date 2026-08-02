@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Portofolio Saya')</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body class="bg-white text-navy-900 font-sans antialiased">
+
+    @include('pages.navbar')
+
+    <main>
+        @yield('content')
+    </main>
+
+
+</body>
+</html>
