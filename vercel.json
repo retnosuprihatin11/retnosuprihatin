@@ -1,5 +1,4 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "functions": {
     "api/index.php": {
@@ -10,8 +9,16 @@
   },
   "routes": [
     {
-      "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|webp|ico|woff|woff2|ttf))",
-      "dest": "/public/$1"
+      "src": "/build/(.*)",
+      "dest": "/public/build/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/public/images/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
     },
     {
       "src": "/(.*)",
