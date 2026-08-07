@@ -41,7 +41,7 @@
                     Hi, I'm
 
                     <span class="text-emerald-600">
-                        Retno Suprihatin
+                    Retno Suprihatin
                     </span>
 
                     <br>
