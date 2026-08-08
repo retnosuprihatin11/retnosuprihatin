@@ -123,7 +123,7 @@
                     </h4>
 
                     <p class="text-gray-500">
-                        Video Editor
+                        Digital Marketing 
                     </p>
 
                 </div>
